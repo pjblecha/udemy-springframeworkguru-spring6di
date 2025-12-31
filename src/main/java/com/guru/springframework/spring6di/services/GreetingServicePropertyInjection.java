@@ -3,7 +3,7 @@ package com.guru.springframework.spring6di.services;
 
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("propertyGreetingService")
 public class GreetingServicePropertyInjection implements GreetingService {
 
     @Override
